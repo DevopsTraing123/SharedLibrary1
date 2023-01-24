@@ -4,6 +4,15 @@ def call(String stageName){
      {
        sh "mvn clean package"
        sh "echo hello"
+       sh "echo hello"
+       sh "echo hello"
+       sh "echo hello"
+       sh "echo hello"
+       sh "echo hello"
+       sh "echo hello"
+       sh "echo hello"
+       sh "echo hello"
+       sh "echo hello"
      }
   else if ("${stageName}" == "SonarQube Report")
      {
